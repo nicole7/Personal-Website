@@ -25,7 +25,7 @@ const Company = () => {
               >
                 <div className={styles.companyBody}>
                     <div className={styles.companyModalHeader}> 
-                        <h2 className={styles.companyModalHeaderText}>companyWork</h2>
+                        <h2 className={styles.companyModalHeaderText}>&#123;companyWork&#125;</h2>
                         <CancelIcon className={styles.companyCloseIcon} onClick={closeModal}/>
                     </div>
                     <div className={styles.companyBodyText}>

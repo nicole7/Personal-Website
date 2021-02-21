@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     height: 65vh;
-    width: 200vh;
+    width: 150vh;
     margin-top: 200px;
     overflow-y: scroll;
     border: 1px solid #AFEEEE;
@@ -45,11 +45,12 @@
     background-color: #282c34;
     margin-right: 150px;
     margin-left: 180px;
+    overflow-y: scroll;
 }
 
 .companyCloseIcon {
     color: #AFEEEE;
-    margin-top: 8px;
+    margin-top: -120px;
     margin-right: 20px;
 
 }
@@ -61,7 +62,7 @@
     font-size: 30px;
     justify-content: center;
     display: flex;
-    margin-top: 8px;
+    margin-top: -120px;
 }
 
 .companyModalHeader {
@@ -73,7 +74,7 @@
 .companyDescription {
     display: flex;
     flex-direction: column;
-    margin: 10px 45px 35px 45px;
+    margin: 10px 45px 25px 45px;
 }
 
 .companyTitle {

@@ -25,7 +25,7 @@ const ClientWork = () => {
               >
                 <div className={styles.clientBody}>
                     <div className={styles.clientModalHeader}> 
-                        <h2 className={styles.clientModalHeaderText}>clientWork</h2>
+                        <h2 className={styles.clientModalHeaderText}>&#123;clientWork&#125;</h2>
                         <CancelIcon className={styles.clientCloseIcon} onClick={closeModal}/>
                     </div>
                     <div className={styles.clientBodyText}>
