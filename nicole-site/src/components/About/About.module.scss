@@ -1,0 +1,83 @@
+@import '../Modal/Modal.css';
+
+.aboutContainer {
+    display: flex;
+    margin: 10px;
+}
+
+.aboutButton {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 40px;
+    font-family: JosefinSans;
+    border: none;
+}
+
+.aboutButton:hover {
+    color: #AFEEEE;
+}
+
+.aboutButton:active {
+    color: #AFEEEE;
+    border: none;
+}
+
+.aboutBodyText {
+    color: #AFEEEE;
+    font-size: 20px;
+    font-family: JosefinSans;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.aboutBody {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    width: 150vh;
+    margin-top: 200px;
+    overflow-y: scroll;
+    border: 1px solid #AFEEEE;
+    justify-content: center;
+    background-color: #282c34;
+    margin-right: 150px;
+    margin-left: 180px;
+    overflow-y: scroll;
+}
+
+.aboutCloseIcon {
+    color: #AFEEEE;
+    margin-top: -120px;
+    margin-right: 20px;
+
+}
+
+.aboutModalHeaderText {
+    color: #AFEEEE;
+    font-family: JosefinSans;
+    margin-left: 30px;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    margin-top: -120px;
+}
+
+.aboutModalHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutDescription {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 45px 25px 45px;
+}
+
+.aboutTitle {
+    display: flex;
+    justify-content: center;
+}

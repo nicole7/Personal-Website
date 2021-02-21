@@ -1,0 +1,16 @@
+.personalContainer{
+    display: flex;
+    margin: 10px;
+}
+
+.personalButton {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 40px;
+    font-family: JosefinSans;
+}
+
+.personalButton:hover {
+    color: #AFEEEE;
+  }
