@@ -1,4 +1,6 @@
-.clientContainer{
+@import '../Modal/Modal.css';
+
+.clientContainer {
     display: flex;
     margin: 10px;
 }
@@ -9,8 +11,72 @@
     color: white;
     font-size: 40px;
     font-family: JosefinSans;
+    border: none;
 }
 
 .clientButton:hover {
     color: #AFEEEE;
-  }
+}
+
+.clientButton:active {
+    color: #AFEEEE;
+    border: none;
+}
+
+.clientBodyText {
+    color: #AFEEEE;
+    font-size: 20px;
+    font-family: JosefinSans;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.clientBody {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    width: 200vh;
+    margin-top: 200px;
+    overflow-y: scroll;
+    border: 1px solid #AFEEEE;
+    justify-content: center;
+    background-color: #282c34;
+    margin-right: 150px;
+    margin-left: 180px;
+}
+
+.clientCloseIcon {
+    color: #AFEEEE;
+    margin-top: 8px;
+    margin-right: 20px;
+
+}
+
+.clientModalHeaderText {
+    color: #AFEEEE;
+    font-family: JosefinSans;
+    margin-left: 30px;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    margin-top: 8px;
+}
+
+.clientModalHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clientDescription {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 45px 35px 45px;
+}
+
+.clientTitle {
+    display: flex;
+    justify-content: center;
+}

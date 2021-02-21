@@ -22,10 +22,6 @@ const Company = () => {
             <Modal
                 open={workOpen}
                 onClose={closeModal}
-                aria-labelledby="simple-modal-title"
-                aria-describedby="simple-modal-description"
-                style={{ size: 'large' }}
-                className="companyModal"
               >
                 <div className={styles.companyBody}>
                     <div className={styles.companyModalHeader}> 
