@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'josefin-sans';
-  src: local('josefin-sans'), url(./fonts/Koala-Family.ttf) format('normal');
+  src: local('Koala-Family'), url(./fonts/Koala-Family.ttf);
 }
 
 body {
