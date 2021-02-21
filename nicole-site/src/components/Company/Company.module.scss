@@ -1,3 +1,5 @@
+@import '../Modal/Modal.css';
+
 .companyContainer {
     display: flex;
     margin: 10px;
@@ -9,12 +11,72 @@
     color: white;
     font-size: 40px;
     font-family: JosefinSans;
+    border: none;
 }
 
 .companyButton:hover {
     color: #AFEEEE;
-  }
+}
 
-  .companyModal {
-      
-  }
+.companyButton:active {
+    color: #AFEEEE;
+    border: none;
+}
+
+.companyBodyText {
+    color: #AFEEEE;
+    font-size: 20px;
+    font-family: JosefinSans;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.companyBody {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    width: 200vh;
+    margin-top: 200px;
+    overflow-y: scroll;
+    border: 1px solid #AFEEEE;
+    justify-content: center;
+    background-color: #282c34;
+    margin-right: 150px;
+    margin-left: 180px;
+}
+
+.companyCloseIcon {
+    color: #AFEEEE;
+    margin-top: 8px;
+    margin-right: 20px;
+
+}
+
+.companyModalHeaderText {
+    color: #AFEEEE;
+    font-family: JosefinSans;
+    margin-left: 30px;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    margin-top: 8px;
+}
+
+.companyModalHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.companyDescription {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 45px 35px 45px;
+}
+
+.companyTitle {
+    display: flex;
+    justify-content: center;
+}
