@@ -1,0 +1,16 @@
+.aboutContainer{
+    display: flex;
+    margin: 10px;
+}
+
+.aboutButton {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 40px;
+    font-family: JosefinSans;
+}
+
+.aboutButton:hover {
+    color: #AFEEEE;
+  }

@@ -1,12 +1,23 @@
-import React from 'react';
+import { React, useState } from 'react';
 import styles from './About.module.scss';
 
 const About = () => {
+    const [workOpen, isWorkOpen] = useState(false);
+
+    const handleClick = () => {
+        isWorkOpen(!workOpen);
+    }
+    
     return (
-        <div>
-            <h1>
-                About
-            </h1>
+        <div className={styles.aboutContainer}>
+             <button className={styles.aboutButton} onClick={handleClick}>
+                about
+            </button>
+            {workOpen && (
+                <div className={styles.aboutBody}>
+                    This is a paragraph about myself as a person and developer
+                </div>
+            )}
         </div>
     )
 };

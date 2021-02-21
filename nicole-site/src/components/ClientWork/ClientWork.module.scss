@@ -1,0 +1,16 @@
+.clientContainer{
+    display: flex;
+    margin: 10px;
+}
+
+.clientButton {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 40px;
+    font-family: JosefinSans;
+}
+
+.clientButton:hover {
+    color: #AFEEEE;
+  }
